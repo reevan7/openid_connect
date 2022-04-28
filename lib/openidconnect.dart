@@ -199,6 +199,7 @@ class OpenIdConnect {
           )
           .toString(),
       enableJavaScript: true,
+      forceWebView: true,
     );
 
     final pollingUri = Uri.parse(request.configuration.tokenEndpoint);
